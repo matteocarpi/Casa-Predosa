@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import styles from '../styles/Home.module.scss';
 import { graphql } from 'gatsby';
 import classnames from 'classnames';
+import Markdown from 'markdown-to-jsx';
 
 const IndexPage = ({data}) => (
   <Layout>
@@ -16,6 +17,12 @@ const IndexPage = ({data}) => (
       </div>
 
     </div>
+
+    <main className={styles.content}>
+      <Markdown>
+        {data.allMarkdownRemark.edges[0].node.internal.content}
+      </Markdown>
+    </main>
   </Layout>
 );
 

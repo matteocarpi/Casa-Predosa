@@ -1,18 +1,26 @@
 body {
     margin: 0;
+    background-color: #679f51;
+    color: #f3fccd;
 }
-
 h1 {
+    font-family: poppins;
     color: green;
     margin: 0;
 }
-
+p {
+    font-family: "PT serif";
+    margin: 3rem 0;
+}
+strong {
+    font-size: 2rem;
+}
 div {
     margin: 0;
 }
 
 .white {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 footer {
