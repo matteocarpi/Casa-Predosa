@@ -30,4 +30,17 @@ query HomeQuery {
       }
     }
   }
+  allMarkdownRemark(filter: {frontmatter: {title: {eq: "home"}}}) {
+    edges {
+      node {
+        id
+        frontmatter {
+          title
+        }
+        internal {
+          content
+        }
+      }
+    }
+  }
 }`;
