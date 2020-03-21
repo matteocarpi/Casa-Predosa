@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import styles from '../styles/Home.module.scss';
 import { graphql } from 'gatsby';
+import classnames from 'classnames';
 
 const IndexPage = ({data}) => (
   <Layout>
@@ -11,7 +12,7 @@ const IndexPage = ({data}) => (
     className={styles.titleSlide}
     >
       <div className={styles.title}>
-        <h1 className="white">Casa Predosa</h1>
+        <h1 className={classnames('white', styles.title)}>Casa Predosa</h1>
       </div>
 
     </div>
