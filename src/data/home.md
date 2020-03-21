@@ -1,4 +1,5 @@
 ---
+title: home
 ---
   Il posto. E' un piccolo borgo. In prospettiva, per 4 o 5 nuclei familiari (unità abitative) con una visione comune di benessere degli abitanti, di buoni rapporti di vicinato, di cura dell'ambiente che ci circonda... A 500 m. di altitudine, circondato da alberi da frutta, prati e boschi, nel Comune di Marzabotto.
 
