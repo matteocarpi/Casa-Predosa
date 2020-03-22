@@ -5,8 +5,9 @@ import { graphql } from 'gatsby';
 import classnames from 'classnames';
 import Markdown from 'markdown-to-jsx';
 import Img from 'gatsby-image';
+import { PropTypes } from 'prop-types';
 
-const IndexPage = ({data}) => (
+const Home = ({data}) => (
   <Layout>
     <div style={{
       backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.20) 3%, rgba(0,0,0,0.2) 100%), url(${data.file.childImageSharp.fluid.src})`,
@@ -40,7 +41,7 @@ const IndexPage = ({data}) => (
   </Layout>
 );
 
-export default IndexPage;
+export default Home;
 
 export const query = graphql`
 query HomeQuery {
@@ -76,3 +77,7 @@ query HomeQuery {
     }
   }
 }`;
+
+Home.propTypes = {
+  data: PropTypes.node,
+};
