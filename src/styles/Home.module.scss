@@ -1,3 +1,5 @@
+@import '_constants.scss';
+
 .titleSlide {
     width: 100%;
     min-height: 80vh;
@@ -9,9 +11,39 @@
 }
 
 .title {
-    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+.subTitle {
+    font-family: Merienda One;
+    text-align: center;
+    font-size: 30px;
+    color: white; 
+    margin: 0;
 }
 .content {
     max-width: 800px;
     margin: 5rem auto;
+}
+
+.gallery {
+    padding: 2rem;
+    background-color: $yellow;
+    h1 {
+        margin: 2rem;
+        color: $green;
+    }
+    
+    .thumb {
+        width: 40%;
+        margin: 1rem;
+        min-width: 200px;
+    }
+    .images {
+        margin: 0 auto;
+        max-width: 1424px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

@@ -11,7 +11,8 @@ module.exports = {
       options: {
         fonts: [
           'poppins',
-          'PT Serif', // you can also specify font weights and styles
+          'PT Serif',
+          'Merienda One', // you can also specify font weights and styles
         ],
         display: 'swap',
       },
