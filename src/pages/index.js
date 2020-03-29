@@ -6,9 +6,11 @@ import classnames from 'classnames';
 import Markdown from 'markdown-to-jsx';
 import Img from 'gatsby-image';
 import { PropTypes } from 'prop-types';
+import SEO from '../components/seo';
 
 const Home = ({data}) => (
   <Layout>
+    <SEO title="Home" />
     <div style={{
       backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.20) 3%, rgba(0,0,0,0.2) 100%), url(${data.file.childImageSharp.fluid.src})`,
     }}
