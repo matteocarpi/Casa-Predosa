@@ -30,6 +30,20 @@ const Home = ({data}) => (
       </Markdown>
     </article>
 
+    <article className={styles.contacts}>
+      <div className={styles.contactBody}>
+        <h1>Contatti</h1>
+        <h2>Casa Predosa</h2>
+        <p>Via Malfolle 26 <br/> 40043, Marzabotto<br/></p>
+        <h2>Lorenzo Saredo</h2>
+        <div className={styles.contactDetails}>
+          <a href="mailto:lorenzo.saredo@gmail.com">lorenzo.saredo@gmail.com</a>
+          <a href="tel: +39 335 6367051‬">+39 335 6367051‬</a>
+        </div>
+      </div>
+
+    </article>
+    
     <article className={styles.gallery}>
       <h1>Galleria</h1>
       <div className={styles.images}>

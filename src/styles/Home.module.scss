@@ -47,3 +47,24 @@
         justify-content: center;
     }
 }
+
+.contacts {
+    width: 100%;
+    padding: 2rem;
+}
+.contactBody {
+    margin: 0 auto;
+    width: min-content;
+
+    p {
+        margin: 0; 
+    }
+}
+.contactDetails {
+    display: flex;
+    flex-direction: column;
+    a {
+        margin: 0.5rem 0;
+        color: $yellow;
+    }
+}
