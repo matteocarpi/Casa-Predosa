@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 import Layout from '../components/layout';
 import styles from '../styles/Home.module.scss';
 import { graphql } from 'gatsby';
@@ -9,6 +10,7 @@ import { PropTypes } from 'prop-types';
 import SEO from '../components/seo';
 
 const Home = ({data}) => (
+
   <Layout>
     <SEO title="Home" />
     <div style={{
