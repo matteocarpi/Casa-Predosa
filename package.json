@@ -16,7 +16,7 @@
     "gatsby-plugin-sass": "^2.2.0",
     "gatsby-plugin-sharp": "^2.4.13",
     "gatsby-source-filesystem": "^2.1.56",
-    "gatsby-transformer-remark": "^2.7.0",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.3.19",
     "lightbox-react": "^0.3.7",
     "markdown-to-jsx": "^6.11.0",
